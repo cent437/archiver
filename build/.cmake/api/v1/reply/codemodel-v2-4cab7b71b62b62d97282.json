@@ -12,7 +12,11 @@
 						"string" : "3.5"
 					},
 					"projectIndex" : 0,
-					"source" : "."
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
 				}
 			],
 			"name" : "Debug",
@@ -23,10 +27,23 @@
 					[
 						0
 					],
-					"name" : "archiver"
+					"name" : "archiver",
+					"targetIndexes" : 
+					[
+						0
+					]
 				}
 			],
-			"targets" : []
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "archiver::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-archiver-Debug-4faee38dc8d991a5d76b.json",
+					"name" : "archiver",
+					"projectIndex" : 0
+				}
+			]
 		}
 	],
 	"kind" : "codemodel",

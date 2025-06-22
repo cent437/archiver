@@ -62,7 +62,7 @@ CMAKE_BINARY_DIR = D:\Software\Projects\VS_code\archiver\build
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all:
+all: CMakeFiles/archiver.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -70,8 +70,34 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean:
+clean: CMakeFiles/archiver.dir/clean
 .PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/archiver.dir
+
+# All Build rule for target.
+CMakeFiles/archiver.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\archiver.dir\build.make CMakeFiles/archiver.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\archiver.dir\build.make CMakeFiles/archiver.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\Software\Projects\VS_code\archiver\build\CMakeFiles --progress-num=1,2,3 "Built target archiver"
+.PHONY : CMakeFiles/archiver.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/archiver.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\Software\Projects\VS_code\archiver\build\CMakeFiles 3
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/archiver.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\Software\Projects\VS_code\archiver\build\CMakeFiles 0
+.PHONY : CMakeFiles/archiver.dir/rule
+
+# Convenience name for target.
+archiver: CMakeFiles/archiver.dir/rule
+.PHONY : archiver
+
+# clean rule for target.
+CMakeFiles/archiver.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\archiver.dir\build.make CMakeFiles/archiver.dir/clean
+.PHONY : CMakeFiles/archiver.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

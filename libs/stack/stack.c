@@ -1,9 +1,9 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <stdbool.h>
-#include "../libs/stack.h"
+#include "stack.h"
 stack *head = NULL, *tail = NULL;
-stack *create_node(char* p_data, int* p_quantity)
+stack *create_node(char *p_data, int *p_quantity)
 {
    stack *p = (stack *)malloc(sizeof(stack));
    if (p == NULL)
@@ -71,4 +71,19 @@ void clear_stack()
       pop();
    }
    return;
+}
+void print_to_file(FILE *f)
+{
+   stack *p = head;
+   int check = 0;
+   while (p != NULL)
+   {
+      check = fprintf(f, "%d%c", p->count, p->symbol);
+      p = p->next;
+   }
+   if (check == 0)
+   {
+      perror("Ошибка. Запись не произведена.");
+      exit(1);
+   }
 }

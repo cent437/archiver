@@ -1310,6 +1310,18 @@
 			"value" : "D:/Software/Projects/VS_code/archiver/src"
 		},
 		{
+			"name" : "USE_STATIC",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Use static library"
+				}
+			],
+			"type" : "BOOL",
+			"value" : "OFF"
+		},
+		{
 			"name" : "_CMAKE_LINKER_PUSHPOP_STATE_SUPPORTED",
 			"properties" : 
 			[

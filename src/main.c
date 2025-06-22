@@ -1,9 +1,25 @@
-#include "libs/stack.h"
+#include "../libs/stack/stack.h"
 #include <string.h>
 #include <stdlib.h>
 #include <stdio.h>
-void compress(char *str)
+long long get_filesize(const char *filename)
 {
+   FILE *f = fopen(filename, "rb");
+   long long file_size = 0;
+   if (f == NULL)
+      file_size = -1;
+   else
+   {
+      fseek(f, 0, SEEK_END);
+      file_size = ftello(f);
+      fclose(f);
+   }
+   return file_size;
+}
+void compress(FILE *f, long long file_size)
+{
+   char *str = (char *)malloc(file_size * sizeof(char));
+   fscanf(f, "%s", str);
    char symbol = str[0];
    int quantity = 0;
    for (size_t i = 0; i < strlen(str); i++)
@@ -19,11 +35,12 @@ void compress(char *str)
          quantity = 0;
       }
    }
+   free(str);
 }
 void help()
 {
    puts("Одним из параметров всегда должен быть путь к файлу.");
-   puts("a.out [ПУТЬ_ДО_ФАЙЛА]");
+   puts("a.out [ПУТЬ_ДО_ФАЙЛА] -[ПАРАМЕТРЫ]");
    puts("-h    --help      Подсказка.");
    puts("-a    --archive   Архивировать файл, указанный в [ПУТЬ_ДО_ФАЙЛА].");
    puts("-e    --extract   Разархивировать файл, указанный в [ПУТЬ_ДО_ФАЙЛА].");
@@ -31,9 +48,7 @@ void help()
 int main(int argc, char *argv[])
 {
 
-   int ui_index = -1;
-   char *way_to_file;
-   FILE *f;
+   FILE *f_src, *f_dest;
    if (argc > 1)
    {
       for (size_t arg_number = 0; arg_number < argc; arg_number++)
@@ -46,18 +61,18 @@ int main(int argc, char *argv[])
          }
          if (strcmp(argv[arg_number], "--archive") == 0 || strcmp(argv[arg_number], "-a") == 0)
          {
-            // compress(way_to_file);
-            exit(0);
+            f_src = fopen(argv[1], "r");
+            compress(f_src, get_filesize(argv[1]));
+            fclose(f_src);
+
+            f_dest = fopen("compressed.txt", "w");
+            print_to_file(f_dest);
+            fclose(f_dest);
          }
          if (strcmp(argv[arg_number], "--extract") == 0 || strcmp(argv[arg_number], "-e") == 0)
          {
             help();
             exit(0);
-         }
-         if (argv[arg_number][0] == 'D')
-         {
-            printf("Открыт файл %s.", argv[arg_number]);
-            strcpy(way_to_file, argv[arg_number]);
          }
       }
    }

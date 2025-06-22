@@ -1,0 +1,25 @@
+CMakeFiles/archiver.dir/stack.c.obj: \
+ D:\Software\Projects\VS_code\archiver\src\stack.c \
+ D:/Software/msys64/ucrt64/include/stdio.h \
+ D:/Software/msys64/ucrt64/include/corecrt_stdio_config.h \
+ D:/Software/msys64/ucrt64/include/corecrt.h \
+ D:/Software/msys64/ucrt64/include/_mingw.h \
+ D:/Software/msys64/ucrt64/include/_mingw_mac.h \
+ D:/Software/msys64/ucrt64/include/_mingw_secapi.h \
+ D:/Software/msys64/ucrt64/include/vadefs.h \
+ D:/Software/msys64/ucrt64/include/sdks/_mingw_ddk.h \
+ D:/Software/msys64/ucrt64/include/_mingw_off_t.h \
+ D:/Software/msys64/ucrt64/include/swprintf.inl \
+ D:/Software/msys64/ucrt64/include/sec_api/stdio_s.h \
+ D:/Software/msys64/ucrt64/include/stdlib.h \
+ D:/Software/msys64/ucrt64/include/corecrt_wstdlib.h \
+ D:/Software/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/limits.h \
+ D:/Software/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/syslimits.h \
+ D:/Software/msys64/ucrt64/include/limits.h \
+ D:/Software/msys64/ucrt64/include/crtdefs.h \
+ D:/Software/msys64/ucrt64/include/sec_api/stdlib_s.h \
+ D:/Software/msys64/ucrt64/include/malloc.h \
+ D:/Software/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/mm_malloc.h \
+ D:/Software/msys64/ucrt64/include/errno.h \
+ D:/Software/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/stdbool.h \
+ D:/Software/Projects/VS_code/archiver/libs/stack.h

@@ -115,6 +115,67 @@ depend:
 	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
 .PHONY : depend
 
+#=============================================================================
+# Target rules for targets named archiver
+
+# Build rule for target.
+archiver: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 archiver
+.PHONY : archiver
+
+# fast build rule for target.
+archiver/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\archiver.dir\build.make CMakeFiles/archiver.dir/build
+.PHONY : archiver/fast
+
+D_/Software/Projects/VS_code/archiver/libs/stack/stack.obj: D_/Software/Projects/VS_code/archiver/libs/stack/stack.c.obj
+.PHONY : D_/Software/Projects/VS_code/archiver/libs/stack/stack.obj
+
+# target to build an object file
+D_/Software/Projects/VS_code/archiver/libs/stack/stack.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\archiver.dir\build.make CMakeFiles/archiver.dir/D_/Software/Projects/VS_code/archiver/libs/stack/stack.c.obj
+.PHONY : D_/Software/Projects/VS_code/archiver/libs/stack/stack.c.obj
+
+D_/Software/Projects/VS_code/archiver/libs/stack/stack.i: D_/Software/Projects/VS_code/archiver/libs/stack/stack.c.i
+.PHONY : D_/Software/Projects/VS_code/archiver/libs/stack/stack.i
+
+# target to preprocess a source file
+D_/Software/Projects/VS_code/archiver/libs/stack/stack.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\archiver.dir\build.make CMakeFiles/archiver.dir/D_/Software/Projects/VS_code/archiver/libs/stack/stack.c.i
+.PHONY : D_/Software/Projects/VS_code/archiver/libs/stack/stack.c.i
+
+D_/Software/Projects/VS_code/archiver/libs/stack/stack.s: D_/Software/Projects/VS_code/archiver/libs/stack/stack.c.s
+.PHONY : D_/Software/Projects/VS_code/archiver/libs/stack/stack.s
+
+# target to generate assembly for a file
+D_/Software/Projects/VS_code/archiver/libs/stack/stack.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\archiver.dir\build.make CMakeFiles/archiver.dir/D_/Software/Projects/VS_code/archiver/libs/stack/stack.c.s
+.PHONY : D_/Software/Projects/VS_code/archiver/libs/stack/stack.c.s
+
+main.obj: main.c.obj
+.PHONY : main.obj
+
+# target to build an object file
+main.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\archiver.dir\build.make CMakeFiles/archiver.dir/main.c.obj
+.PHONY : main.c.obj
+
+main.i: main.c.i
+.PHONY : main.i
+
+# target to preprocess a source file
+main.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\archiver.dir\build.make CMakeFiles/archiver.dir/main.c.i
+.PHONY : main.c.i
+
+main.s: main.c.s
+.PHONY : main.s
+
+# target to generate assembly for a file
+main.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\archiver.dir\build.make CMakeFiles/archiver.dir/main.c.s
+.PHONY : main.c.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -123,6 +184,13 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
+	@echo ... archiver
+	@echo ... D_/Software/Projects/VS_code/archiver/libs/stack/stack.obj
+	@echo ... D_/Software/Projects/VS_code/archiver/libs/stack/stack.i
+	@echo ... D_/Software/Projects/VS_code/archiver/libs/stack/stack.s
+	@echo ... main.obj
+	@echo ... main.i
+	@echo ... main.s
 .PHONY : help
 
 

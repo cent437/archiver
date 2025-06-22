@@ -1,2 +1,3 @@
+D:/Software/Projects/VS_code/archiver/build/CMakeFiles/archiver.dir
 D:/Software/Projects/VS_code/archiver/build/CMakeFiles/edit_cache.dir
 D:/Software/Projects/VS_code/archiver/build/CMakeFiles/rebuild_cache.dir

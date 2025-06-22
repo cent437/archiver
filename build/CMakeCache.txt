@@ -250,6 +250,9 @@ Project_IS_TOP_LEVEL:STATIC=ON
 //Value Computed by CMake
 Project_SOURCE_DIR:STATIC=D:/Software/Projects/VS_code/archiver/src
 
+//Use static library
+USE_STATIC:BOOL=OFF
+
 //Value Computed by CMake
 archiver_BINARY_DIR:STATIC=D:/Software/Projects/VS_code/archiver/build
 
