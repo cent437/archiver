@@ -49,6 +49,12 @@ int main(int argc, char *argv[])
 {
 
    FILE *f_src, *f_dest;
+   if (argc == 1)
+   {
+      help();
+      exit(0);
+   }
+
    if (argc > 1)
    {
       for (size_t arg_number = 0; arg_number < argc; arg_number++)
