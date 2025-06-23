@@ -23,4 +23,5 @@ CMakeFiles/archiver.dir/main.c.obj: \
  D:/Software/msys64/ucrt64/include/sec_api/stdlib_s.h \
  D:/Software/msys64/ucrt64/include/malloc.h \
  D:/Software/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/mm_malloc.h \
- D:/Software/msys64/ucrt64/include/errno.h
+ D:/Software/msys64/ucrt64/include/errno.h \
+ D:/Software/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/stdbool.h
