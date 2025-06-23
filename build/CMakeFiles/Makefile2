@@ -80,12 +80,12 @@ clean: CMakeFiles/archiver.dir/clean
 CMakeFiles/archiver.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\archiver.dir\build.make CMakeFiles/archiver.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\archiver.dir\build.make CMakeFiles/archiver.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\Software\Projects\VS_code\archiver\build\CMakeFiles --progress-num=1,2,3 "Built target archiver"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\Software\Projects\VS_code\archiver\build\CMakeFiles --progress-num=1,2,3,4 "Built target archiver"
 .PHONY : CMakeFiles/archiver.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/archiver.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\Software\Projects\VS_code\archiver\build\CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\Software\Projects\VS_code\archiver\build\CMakeFiles 4
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/archiver.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start D:\Software\Projects\VS_code\archiver\build\CMakeFiles 0
 .PHONY : CMakeFiles/archiver.dir/rule

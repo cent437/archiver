@@ -10,8 +10,8 @@
          "request": "launch",
          "program": "${workspaceFolder}\\build\\${workspaceFolderBasename}.exe",
          "args": [
-            "${workspaceFolder}\\build\\compressed.txt",
-            "-e"
+            "${workspaceFolder}\\data\\str.txt",
+            "-a"
          ],
          "stopAtEntry": false,
          "cwd": "${fileDirname}",

@@ -1,6 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/archiver.dir/D_/Software/Projects/VS_code/archiver/libs/stack/stack.c.obj"
   "CMakeFiles/archiver.dir/D_/Software/Projects/VS_code/archiver/libs/stack/stack.c.obj.d"
+  "CMakeFiles/archiver.dir/archiving.c.obj"
+  "CMakeFiles/archiver.dir/archiving.c.obj.d"
   "CMakeFiles/archiver.dir/main.c.obj"
   "CMakeFiles/archiver.dir/main.c.obj.d"
   "archiver.exe"

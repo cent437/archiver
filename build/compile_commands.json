@@ -10,5 +10,11 @@
   "command": "D:\\Software\\msys64\\ucrt64\\bin\\gcc.exe   -g -o CMakeFiles\\archiver.dir\\D_\\Software\\Projects\\VS_code\\archiver\\libs\\stack\\stack.c.obj -c D:\\Software\\Projects\\VS_code\\archiver\\libs\\stack\\stack.c",
   "file": "D:/Software/Projects/VS_code/archiver/libs/stack/stack.c",
   "output": "CMakeFiles/archiver.dir/D_/Software/Projects/VS_code/archiver/libs/stack/stack.c.obj"
+},
+{
+  "directory": "D:/Software/Projects/VS_code/archiver/build",
+  "command": "D:\\Software\\msys64\\ucrt64\\bin\\gcc.exe   -g -o CMakeFiles\\archiver.dir\\archiving.c.obj -c D:\\Software\\Projects\\VS_code\\archiver\\src\\archiving.c",
+  "file": "D:/Software/Projects/VS_code/archiver/src/archiving.c",
+  "output": "CMakeFiles/archiver.dir/archiving.c.obj"
 }
 ]

@@ -1,5 +1,5 @@
-CMakeFiles/archiver.dir/main.c.obj: \
- D:\Software\Projects\VS_code\archiver\src\main.c \
+CMakeFiles/archiver.dir/archiving.c.obj: \
+ D:\Software\Projects\VS_code\archiver\src\archiving.c \
  D:/Software/Projects/VS_code/archiver/libs/stack/stack.h \
  D:/Software/msys64/ucrt64/include/stdio.h \
  D:/Software/msys64/ucrt64/include/corecrt_stdio_config.h \
@@ -12,8 +12,6 @@ CMakeFiles/archiver.dir/main.c.obj: \
  D:/Software/msys64/ucrt64/include/_mingw_off_t.h \
  D:/Software/msys64/ucrt64/include/swprintf.inl \
  D:/Software/msys64/ucrt64/include/sec_api/stdio_s.h \
- D:\Software\Projects\VS_code\archiver\src\archiving.h \
- D:/Software/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/stdbool.h \
  D:/Software/msys64/ucrt64/include/stdlib.h \
  D:/Software/msys64/ucrt64/include/corecrt_wstdlib.h \
  D:/Software/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/limits.h \
@@ -25,4 +23,5 @@ CMakeFiles/archiver.dir/main.c.obj: \
  D:/Software/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/mm_malloc.h \
  D:/Software/msys64/ucrt64/include/errno.h \
  D:/Software/msys64/ucrt64/include/string.h \
- D:/Software/msys64/ucrt64/include/sec_api/string_s.h
+ D:/Software/msys64/ucrt64/include/sec_api/string_s.h \
+ D:/Software/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/stdbool.h

@@ -9,6 +9,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "D:/Software/Projects/VS_code/archiver/libs/stack/stack.c" "CMakeFiles/archiver.dir/D_/Software/Projects/VS_code/archiver/libs/stack/stack.c.obj" "gcc" "CMakeFiles/archiver.dir/D_/Software/Projects/VS_code/archiver/libs/stack/stack.c.obj.d"
+  "D:/Software/Projects/VS_code/archiver/src/archiving.c" "CMakeFiles/archiver.dir/archiving.c.obj" "gcc" "CMakeFiles/archiver.dir/archiving.c.obj.d"
   "D:/Software/Projects/VS_code/archiver/src/main.c" "CMakeFiles/archiver.dir/main.c.obj" "gcc" "CMakeFiles/archiver.dir/main.c.obj.d"
   )
 

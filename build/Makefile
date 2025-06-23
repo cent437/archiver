@@ -152,6 +152,30 @@ D_/Software/Projects/VS_code/archiver/libs/stack/stack.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\archiver.dir\build.make CMakeFiles/archiver.dir/D_/Software/Projects/VS_code/archiver/libs/stack/stack.c.s
 .PHONY : D_/Software/Projects/VS_code/archiver/libs/stack/stack.c.s
 
+archiving.obj: archiving.c.obj
+.PHONY : archiving.obj
+
+# target to build an object file
+archiving.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\archiver.dir\build.make CMakeFiles/archiver.dir/archiving.c.obj
+.PHONY : archiving.c.obj
+
+archiving.i: archiving.c.i
+.PHONY : archiving.i
+
+# target to preprocess a source file
+archiving.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\archiver.dir\build.make CMakeFiles/archiver.dir/archiving.c.i
+.PHONY : archiving.c.i
+
+archiving.s: archiving.c.s
+.PHONY : archiving.s
+
+# target to generate assembly for a file
+archiving.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\archiver.dir\build.make CMakeFiles/archiver.dir/archiving.c.s
+.PHONY : archiving.c.s
+
 main.obj: main.c.obj
 .PHONY : main.obj
 
@@ -188,6 +212,9 @@ help:
 	@echo ... D_/Software/Projects/VS_code/archiver/libs/stack/stack.obj
 	@echo ... D_/Software/Projects/VS_code/archiver/libs/stack/stack.i
 	@echo ... D_/Software/Projects/VS_code/archiver/libs/stack/stack.s
+	@echo ... archiving.obj
+	@echo ... archiving.i
+	@echo ... archiving.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
