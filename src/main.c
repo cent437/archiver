@@ -51,5 +51,6 @@ int main(int argc, char *argv[])
    }
    fclose(f_src);
    fclose(f_dest);
+   clear_stack();
    return 0;
 }
