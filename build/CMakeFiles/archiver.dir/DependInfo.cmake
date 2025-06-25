@@ -8,17 +8,13 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "D:/Software/Projects/VS_code/archiver/libs/stack/stack.c" "CMakeFiles/archiver.dir/D_/Software/Projects/VS_code/archiver/libs/stack/stack.c.obj" "gcc" "CMakeFiles/archiver.dir/D_/Software/Projects/VS_code/archiver/libs/stack/stack.c.obj.d"
-  "D:/Software/Projects/VS_code/archiver/src/archiving.c" "CMakeFiles/archiver.dir/archiving.c.obj" "gcc" "CMakeFiles/archiver.dir/archiving.c.obj.d"
-  "D:/Software/Projects/VS_code/archiver/src/main.c" "CMakeFiles/archiver.dir/main.c.obj" "gcc" "CMakeFiles/archiver.dir/main.c.obj.d"
+  "/home/cent2/Документы/archiver/src/archiving.c" "CMakeFiles/archiver.dir/archiving.c.o" "gcc" "CMakeFiles/archiver.dir/archiving.c.o.d"
+  "/home/cent2/Документы/archiver/libs/stack/stack.c" "CMakeFiles/archiver.dir/home/cent2/Документы/archiver/libs/stack/stack.c.o" "gcc" "CMakeFiles/archiver.dir/home/cent2/Документы/archiver/libs/stack/stack.c.o.d"
+  "/home/cent2/Документы/archiver/src/main.c" "CMakeFiles/archiver.dir/main.c.o" "gcc" "CMakeFiles/archiver.dir/main.c.o.d"
   )
 
-# Targets to which this target links which contain Fortran sources.
-set(CMAKE_Fortran_TARGET_LINKED_INFO_FILES
-  )
-
-# Targets to which this target links which contain Fortran sources.
-set(CMAKE_Fortran_TARGET_FORWARD_LINKED_INFO_FILES
+# Targets to which this target links.
+set(CMAKE_TARGET_LINKED_INFO_FILES
   )
 
 # Fortran module output directory.

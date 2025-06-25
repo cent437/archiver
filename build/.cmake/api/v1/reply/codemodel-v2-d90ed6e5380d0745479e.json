@@ -6,7 +6,7 @@
 			[
 				{
 					"build" : ".",
-					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.5"
@@ -39,7 +39,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "archiver::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-archiver-Debug-25039afcd8c2e9630ed1.json",
+					"jsonFile" : "target-archiver-Debug-a99bfc5387d4f80a7025.json",
 					"name" : "archiver",
 					"projectIndex" : 0
 				}
@@ -49,12 +49,12 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "D:/Software/Projects/VS_code/archiver/build",
-		"source" : "D:/Software/Projects/VS_code/archiver/src"
+		"build" : "/home/cent2/\u0414\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u044b/archiver/build",
+		"source" : "/home/cent2/\u0414\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u044b/archiver/src"
 	},
 	"version" : 
 	{
 		"major" : 2,
-		"minor" : 8
+		"minor" : 4
 	}
 }

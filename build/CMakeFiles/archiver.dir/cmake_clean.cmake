@@ -1,14 +1,12 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/archiver.dir/D_/Software/Projects/VS_code/archiver/libs/stack/stack.c.obj"
-  "CMakeFiles/archiver.dir/D_/Software/Projects/VS_code/archiver/libs/stack/stack.c.obj.d"
-  "CMakeFiles/archiver.dir/archiving.c.obj"
-  "CMakeFiles/archiver.dir/archiving.c.obj.d"
-  "CMakeFiles/archiver.dir/main.c.obj"
-  "CMakeFiles/archiver.dir/main.c.obj.d"
-  "archiver.exe"
-  "archiver.exe.manifest"
+  "CMakeFiles/archiver.dir/archiving.c.o"
+  "CMakeFiles/archiver.dir/archiving.c.o.d"
+  "CMakeFiles/archiver.dir/home/cent2/Документы/archiver/libs/stack/stack.c.o"
+  "CMakeFiles/archiver.dir/home/cent2/Документы/archiver/libs/stack/stack.c.o.d"
+  "CMakeFiles/archiver.dir/main.c.o"
+  "CMakeFiles/archiver.dir/main.c.o.d"
+  "archiver"
   "archiver.pdb"
-  "libarchiver.dll.a"
 )
 
 # Per-language clean rules from dependency scanning.

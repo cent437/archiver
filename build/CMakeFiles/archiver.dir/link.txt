@@ -1,3 +1,1 @@
-"D:\Software\Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E rm -f CMakeFiles\archiver.dir/objects.a
-D:\Software\msys64\ucrt64\bin\ar.exe qc CMakeFiles\archiver.dir/objects.a @CMakeFiles\archiver.dir\objects1.rsp
-D:\Software\msys64\ucrt64\bin\gcc.exe -g -Wl,--whole-archive CMakeFiles\archiver.dir/objects.a -Wl,--no-whole-archive -o archiver.exe -Wl,--out-implib,libarchiver.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\archiver.dir\linkLibs.rsp
+/usr/bin/gcc -g CMakeFiles/archiver.dir/main.c.o CMakeFiles/archiver.dir/home/cent2/Документы/archiver/libs/stack/stack.c.o CMakeFiles/archiver.dir/archiving.c.o -o archiver 
