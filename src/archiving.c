@@ -7,7 +7,7 @@
 #define TO_DIGIT_4 (str_compressed[i] - 48) * 1000 + (str_compressed[i] - 48) * 100 + (str_compressed[i + 1] - 48) * 10 + (str_compressed[i + 2] - 48)
 #define TO_DIGIT_3 (str_compressed[i] - 48) * 100 + (str_compressed[i + 1] - 48) * 10 + (str_compressed[i + 2] - 48)
 #define TO_DIGIT_2 (str_compressed[i] - 48) * 10 + (str_compressed[i + 1] - 48)
-#define TO_DIGIT_1 str_compressed[i + 1]
+#define TO_DIGIT_1 (str_compressed[i] - 48)
 
 #define IS_DIGIT_4 isDigit(str_compressed[i]) && isDigit(str_compressed[i + 1]) && isDigit(str_compressed[i + 2]) && isDigit(str_compressed[i + 3])
 #define IS_DIGIT_3 isDigit(str_compressed[i]) && isDigit(str_compressed[i + 1]) && isDigit(str_compressed[i + 2])
@@ -140,8 +140,8 @@ void decompress(FILE *f_compressed, FILE *f_decompressed, long long compressed_s
       }
       else if (IS_DIGIT_1)
       {
-         quantity = (str_compressed[i] - 48);
-         symbol = TO_DIGIT_1;
+         quantity = TO_DIGIT_1;
+         symbol = str_compressed[i + 2];
          i += 2;
          str_decompressed = (char *)calloc(quantity, sizeof(char));
          if (str_decompressed == NULL)
