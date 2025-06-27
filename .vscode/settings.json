@@ -1,11 +1,11 @@
 {
-   "cmake.sourceDirectory": "/home/cent2/Документы/archiver/src",
-   //"C_Cpp.default.compilerPath": "D:/Software/msys64/ucrt64/bin/gcc.exe",
+   "cmake.sourceDirectory": "D:/Software/Projects/VS_Code/archiver/src",
+   "C_Cpp.default.compilerPath": "D:/Software/msys64/ucrt64/bin/gcc.exe",
    "files.associations": {
       "stdlib.h": "c",
       "archiving.h": "c",
       "stack.h": "c",
       "stdbool.h": "c"
    },
-   "C_Cpp.default.compilerPath": "/usr/bin/gcc"
+   //"C_Cpp.default.compilerPath": "/usr/bin/gcc"
 }

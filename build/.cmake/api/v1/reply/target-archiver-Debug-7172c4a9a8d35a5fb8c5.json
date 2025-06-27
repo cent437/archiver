@@ -2,7 +2,10 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "archiver"
+			"path" : "archiver.exe"
+		},
+		{
+			"path" : "archiver.pdb"
 		}
 	],
 	"backtrace" : 1,
@@ -57,14 +60,14 @@
 				"role" : "flags"
 			},
 			{
-				"fragment" : "",
-				"role" : "flags"
+				"fragment" : "-lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32",
+				"role" : "libraries"
 			}
 		],
 		"language" : "C"
 	},
 	"name" : "archiver",
-	"nameOnDisk" : "archiver",
+	"nameOnDisk" : "archiver.exe",
 	"paths" : 
 	{
 		"build" : ".",
@@ -93,7 +96,7 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "/home/cent2/\u0414\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u044b/archiver/libs/stack/stack.c",
+			"path" : "D:/Software/Projects/VS_Code/archiver/libs/stack/stack.c",
 			"sourceGroupIndex" : 0
 		},
 		{

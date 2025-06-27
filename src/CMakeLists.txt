@@ -1,5 +1,5 @@
-cmake_minimum_required(VERSION 3.5)
-project(archiver LANGUAGES C)
+cmake_minimum_required(VERSION 3.5...4.2)
+project(archiver C)
 set(SOURCE main.c ../libs/stack/stack.c archiving.c)
 option(USE_STATIC "Use static library" ON)
 message(STATUS "OS: ${CMAKE_SYSTEM_NAME}")
