@@ -5,7 +5,19 @@
    "version": "0.2.0",
    "configurations": [
       {
-         "name": "(gdb) Launch",
+         "type": "lldb",
+         "request": "launch",
+         "name": "Launch",
+         "program": "${workspaceFolder}/build/${fileWorkspaceFolderBasename}",
+         "args": [
+            "${workspaceFolder}/data/str.txt",
+            "-a"
+         ],
+         "cwd": "${workspaceFolder}"
+      },
+      
+      {
+         "name": "(gdb) Launch Windows",
          "type": "cppdbg",
          "request": "launch",
          "program": "${workspaceFolder}\\build\\${workspaceFolderBasename}.exe",

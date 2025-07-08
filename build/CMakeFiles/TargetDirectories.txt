@@ -1,3 +1,3 @@
-D:/Software/Projects/VS_Code/archiver/build/CMakeFiles/archiver.dir
-D:/Software/Projects/VS_Code/archiver/build/CMakeFiles/edit_cache.dir
-D:/Software/Projects/VS_Code/archiver/build/CMakeFiles/rebuild_cache.dir
+/home/cent2/Documents/archiver/build/CMakeFiles/archiver.dir
+/home/cent2/Documents/archiver/build/CMakeFiles/edit_cache.dir
+/home/cent2/Documents/archiver/build/CMakeFiles/rebuild_cache.dir

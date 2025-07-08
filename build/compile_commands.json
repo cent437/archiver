@@ -1,20 +1,20 @@
 [
 {
-  "directory": "D:/Software/Projects/VS_Code/archiver/build",
-  "command": "D:\\Software\\msys64\\ucrt64\\bin\\gcc.exe   -g -o CMakeFiles\\archiver.dir\\main.c.obj -c D:\\Software\\Projects\\VS_Code\\archiver\\src\\main.c",
-  "file": "D:/Software/Projects/VS_Code/archiver/src/main.c",
-  "output": "CMakeFiles/archiver.dir/main.c.obj"
+  "directory": "/home/cent2/Documents/archiver/build",
+  "command": "/usr/bin/gcc   -g -o CMakeFiles/archiver.dir/main.c.o -c /home/cent2/Documents/archiver/src/main.c",
+  "file": "/home/cent2/Documents/archiver/src/main.c",
+  "output": "CMakeFiles/archiver.dir/main.c.o"
 },
 {
-  "directory": "D:/Software/Projects/VS_Code/archiver/build",
-  "command": "D:\\Software\\msys64\\ucrt64\\bin\\gcc.exe   -g -o CMakeFiles\\archiver.dir\\D_\\Software\\Projects\\VS_Code\\archiver\\libs\\stack\\stack.c.obj -c D:\\Software\\Projects\\VS_Code\\archiver\\libs\\stack\\stack.c",
-  "file": "D:/Software/Projects/VS_Code/archiver/libs/stack/stack.c",
-  "output": "CMakeFiles/archiver.dir/D_/Software/Projects/VS_Code/archiver/libs/stack/stack.c.obj"
+  "directory": "/home/cent2/Documents/archiver/build",
+  "command": "/usr/bin/gcc   -g -o CMakeFiles/archiver.dir/home/cent2/Documents/archiver/libs/stack/stack.c.o -c /home/cent2/Documents/archiver/libs/stack/stack.c",
+  "file": "/home/cent2/Documents/archiver/libs/stack/stack.c",
+  "output": "CMakeFiles/archiver.dir/home/cent2/Documents/archiver/libs/stack/stack.c.o"
 },
 {
-  "directory": "D:/Software/Projects/VS_Code/archiver/build",
-  "command": "D:\\Software\\msys64\\ucrt64\\bin\\gcc.exe   -g -o CMakeFiles\\archiver.dir\\archiving.c.obj -c D:\\Software\\Projects\\VS_Code\\archiver\\src\\archiving.c",
-  "file": "D:/Software/Projects/VS_Code/archiver/src/archiving.c",
-  "output": "CMakeFiles/archiver.dir/archiving.c.obj"
+  "directory": "/home/cent2/Documents/archiver/build",
+  "command": "/usr/bin/gcc   -g -o CMakeFiles/archiver.dir/archiving.c.o -c /home/cent2/Documents/archiver/src/archiving.c",
+  "file": "/home/cent2/Documents/archiver/src/archiving.c",
+  "output": "CMakeFiles/archiver.dir/archiving.c.o"
 }
 ]

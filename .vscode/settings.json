@@ -1,5 +1,6 @@
 {
-   "cmake.sourceDirectory": "D:/Software/Projects/VS_Code/archiver/src",
+   "cmake.sourceDirectory": "/home/cent2/Documents/archiver/src",
+   "cmake.cmakePath": "/usr/bin/cmake",
    "C_Cpp.default.compilerPath": "D:/Software/msys64/ucrt64/bin/gcc.exe",
    "files.associations": {
       "stdlib.h": "c",

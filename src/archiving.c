@@ -39,7 +39,6 @@ long long get_filesize(FILE *f)
    {
       fseek(f, 0, SEEK_END);
       file_size = ftello(f);
-      fclose(f);
    }
    return file_size;
 }
