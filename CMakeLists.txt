@@ -3,7 +3,9 @@ project(archiver C)
 set(SOURCE 
 src/main.c
 src/archiving.c 
-libs/stack/stack.c )
+libs/stack/stack.c 
+)
 option(USE_STATIC "Use static library" ON)
 message(STATUS "OS: ${CMAKE_SYSTEM_NAME}")
+message(STATUS "CMAKE: ${CMAKE_VERSION}")
 add_executable(${PROJECT_NAME} ${SOURCE})
