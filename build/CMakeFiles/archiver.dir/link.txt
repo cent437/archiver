@@ -1,1 +1,0 @@
-/usr/bin/gcc -g -Wl,--dependency-file=CMakeFiles/archiver.dir/link.d CMakeFiles/archiver.dir/main.c.o CMakeFiles/archiver.dir/home/cent2/Documents/archiver/libs/stack/stack.c.o CMakeFiles/archiver.dir/archiving.c.o -o archiver
